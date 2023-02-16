@@ -12,6 +12,8 @@ export enum FetchState {
     body: string;
     email: string;
     username: string;
+    userId: number;
+    completed: boolean;
   };
 
   // export type PagedTable<T> = {

@@ -28,8 +28,8 @@ const UserPage = () => {
       <main className="profiles">
         <section className="users">
           {userItems.map((user, index) => (
-            <Link to={`/users/${user.id}`}>
-              <article className="profile" key={index}>
+            <Link to={`/users/${user.id}`} key={index}>
+              <article className="profile">
                 <img
                   className="profile-pic"
                   src="https://robohash.org/mail@ashallendesign.co.uk"
